@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const Quotes = () => {
-  const [quote, setQuote] = useState({ content: "", author: "" });
+  const [quote, setQuote] = useState({ content: "Be kind to yourself — growth takes time.", author: "Unkown" });
 
   const fetchQuote = async () => {
     try {
     //   Add a cache-busting timestamp to ensure fresh results
-      const response = await axios.get(  `https://api.allorigins.win/raw?url=https://zenquotes.io/api/random?time=${Date.now()}`
+      const response = await axios.get(`https://api.allorigins.win/raw?url=https://zenquotes.io/api/random?time=${Date.now()}`
       );
 
       const data = Array.isArray(response.data) ? response.data[0] : null;
