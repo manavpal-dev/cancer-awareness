@@ -6,7 +6,7 @@ This project was created as part of an internship assignment to demonstrate fron
 ---
 
 ## 🚀 Live Demo
-👉 [View the Live Project](https://your-vercel-or-netlify-link-here.com)
+👉 [View the Live Project](https://cancer-awareness-project.vercel.app/)
 
 ---
 
